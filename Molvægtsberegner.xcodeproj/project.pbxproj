@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A54FF9F13CCB32500F27C1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A54FF9E13CCB32500F27C1B /* Cocoa.framework */; };
+		3A54FFA913CCB32500F27C1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A54FFA713CCB32500F27C1B /* InfoPlist.strings */; };
+		3A54FFAB13CCB32500F27C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54FFAA13CCB32500F27C1B /* main.m */; };
+		3A54FFAF13CCB32500F27C1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A54FFAD13CCB32500F27C1B /* Credits.rtf */; };
+		3A54FFB213CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54FFB113CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m */; };
+		3A54FFB513CCB32500F27C1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A54FFB313CCB32500F27C1B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A54FF9A13CCB32500F27C1B /* Molvægtsberegner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Molvægtsberegner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54FF9E13CCB32500F27C1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A54FFA113CCB32500F27C1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3A54FFA213CCB32500F27C1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A54FFA313CCB32500F27C1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A54FFA613CCB32500F27C1B /* Molvægtsberegner-Info.plist */ = {isa = PBXFileReference; path = "Molvægtsberegner-Info.plist"; sourceTree = "<group>"; };
+		3A54FFA813CCB32500F27C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A54FFAA13CCB32500F27C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A54FFAC13CCB32500F27C1B /* Molvægtsberegner-Prefix.pch */ = {isa = PBXFileReference; path = "Molvægtsberegner-Prefix.pch"; sourceTree = "<group>"; };
+		3A54FFAE13CCB32500F27C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3A54FFB013CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.h */ = {isa = PBXFileReference; path = Molv_gtsberegnerAppDelegate.h; sourceTree = "<group>"; };
+		3A54FFB113CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Molv_gtsberegnerAppDelegate.m; sourceTree = "<group>"; };
+		3A54FFB413CCB32500F27C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A54FF9713CCB32500F27C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54FF9F13CCB32500F27C1B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A54FF8F13CCB32400F27C1B = {
+			isa = PBXGroup;
+			children = (
+				3A54FFA413CCB32500F27C1B /* Molvægtsberegner */,
+				3A54FF9D13CCB32500F27C1B /* Frameworks */,
+				3A54FF9B13CCB32500F27C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A54FF9B13CCB32500F27C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A54FF9A13CCB32500F27C1B /* Molvægtsberegner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A54FF9D13CCB32500F27C1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A54FF9E13CCB32500F27C1B /* Cocoa.framework */,
+				3A54FFA013CCB32500F27C1B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A54FFA013CCB32500F27C1B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A54FFA113CCB32500F27C1B /* AppKit.framework */,
+				3A54FFA213CCB32500F27C1B /* CoreData.framework */,
+				3A54FFA313CCB32500F27C1B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3A54FFA413CCB32500F27C1B /* Molvægtsberegner */ = {
+			isa = PBXGroup;
+			children = (
+				3A54FFB013CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.h */,
+				3A54FFB113CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m */,
+				3A54FFB313CCB32500F27C1B /* MainMenu.xib */,
+				3A54FFA513CCB32500F27C1B /* Supporting Files */,
+			);
+			path = "Molvægtsberegner";
+			sourceTree = "<group>";
+		};
+		3A54FFA513CCB32500F27C1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A54FFA613CCB32500F27C1B /* Molvægtsberegner-Info.plist */,
+				3A54FFA713CCB32500F27C1B /* InfoPlist.strings */,
+				3A54FFAA13CCB32500F27C1B /* main.m */,
+				3A54FFAC13CCB32500F27C1B /* Molvægtsberegner-Prefix.pch */,
+				3A54FFAD13CCB32500F27C1B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A54FF9913CCB32500F27C1B /* Molvægtsberegner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54FFB813CCB32500F27C1B /* Build configuration list for PBXNativeTarget "Molvægtsberegner" */;
+			buildPhases = (
+				3A54FF9613CCB32500F27C1B /* Sources */,
+				3A54FF9713CCB32500F27C1B /* Frameworks */,
+				3A54FF9813CCB32500F27C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Molvægtsberegner";
+			productName = "Molvægtsberegner";
+			productReference = 3A54FF9A13CCB32500F27C1B /* Molvægtsberegner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A54FF9113CCB32400F27C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Erik's Team";
+			};
+			buildConfigurationList = 3A54FF9413CCB32400F27C1B /* Build configuration list for PBXProject "Molvægtsberegner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A54FF8F13CCB32400F27C1B;
+			productRefGroup = 3A54FF9B13CCB32500F27C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A54FF9913CCB32500F27C1B /* Molvægtsberegner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A54FF9813CCB32500F27C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54FFA913CCB32500F27C1B /* InfoPlist.strings in Resources */,
+				3A54FFAF13CCB32500F27C1B /* Credits.rtf in Resources */,
+				3A54FFB513CCB32500F27C1B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A54FF9613CCB32500F27C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54FFAB13CCB32500F27C1B /* main.m in Sources */,
+				3A54FFB213CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A54FFA713CCB32500F27C1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A54FFA813CCB32500F27C1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A54FFAD13CCB32500F27C1B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A54FFAE13CCB32500F27C1B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3A54FFB313CCB32500F27C1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A54FFB413CCB32500F27C1B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A54FFB613CCB32500F27C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A54FFB713CCB32500F27C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A54FFB913CCB32500F27C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Molvægtsberegner/Molvægtsberegner-Prefix.pch";
+				INFOPLIST_FILE = "Molvægtsberegner/Molvægtsberegner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A54FFBA13CCB32500F27C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Molvægtsberegner/Molvægtsberegner-Prefix.pch";
+				INFOPLIST_FILE = "Molvægtsberegner/Molvægtsberegner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A54FF9413CCB32400F27C1B /* Build configuration list for PBXProject "Molvægtsberegner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54FFB613CCB32500F27C1B /* Debug */,
+				3A54FFB713CCB32500F27C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54FFB813CCB32500F27C1B /* Build configuration list for PBXNativeTarget "Molvægtsberegner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54FFB913CCB32500F27C1B /* Debug */,
+				3A54FFBA13CCB32500F27C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A54FF9113CCB32400F27C1B /* Project object */;
+}
