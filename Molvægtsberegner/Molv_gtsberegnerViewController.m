@@ -34,7 +34,7 @@
 }
 
 - (IBAction)getAmount:(id)sender {
-    amountView.stringValue = [NSString stringWithFormat:@"%f mol", [amountView.stringValue doubleValue] /
+    amountView.stringValue = [NSString stringWithFormat:@"%f mol", [massView.stringValue doubleValue] /
                               [molarMass doubleValue]];
 }
 
