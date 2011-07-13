@@ -13,22 +13,34 @@
 		3A54FFAF13CCB32500F27C1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A54FFAD13CCB32500F27C1B /* Credits.rtf */; };
 		3A54FFB213CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54FFB113CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m */; };
 		3A54FFB513CCB32500F27C1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A54FFB313CCB32500F27C1B /* MainMenu.xib */; };
+		3A54FFBE13CCB59A00F27C1B /* Molv_gtsberegnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54FFBC13CCB59A00F27C1B /* Molv_gtsberegnerViewController.m */; };
+		3A54FFC213CCB9C800F27C1B /* MolarMassCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54FFC113CCB9C800F27C1B /* MolarMassCalculator.m */; };
+		3A54FFC413CCBEE800F27C1B /* molarMassTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A54FFC313CCBEE800F27C1B /* molarMassTable.plist */; };
+		3AB60D4D13CDB58E00B0DB08 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3AB60D4C13CDB58E00B0DB08 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A05728F13CDC34B00651CAD /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A54FF9A13CCB32500F27C1B /* Molvægtsberegner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Molvægtsberegner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A54FF9E13CCB32500F27C1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3A54FFA113CCB32500F27C1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3A54FFA213CCB32500F27C1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3A54FFA313CCB32500F27C1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3A54FFA613CCB32500F27C1B /* Molvægtsberegner-Info.plist */ = {isa = PBXFileReference; path = "Molvægtsberegner-Info.plist"; sourceTree = "<group>"; };
+		3A54FFA613CCB32500F27C1B /* Molvægtsberegner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Molvægtsberegner-Info.plist"; sourceTree = "<group>"; };
 		3A54FFA813CCB32500F27C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A54FFAA13CCB32500F27C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A54FFAC13CCB32500F27C1B /* Molvægtsberegner-Prefix.pch */ = {isa = PBXFileReference; path = "Molvægtsberegner-Prefix.pch"; sourceTree = "<group>"; };
+		3A54FFAC13CCB32500F27C1B /* Molvægtsberegner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Molvægtsberegner-Prefix.pch"; sourceTree = "<group>"; };
 		3A54FFAE13CCB32500F27C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		3A54FFB013CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.h */ = {isa = PBXFileReference; path = Molv_gtsberegnerAppDelegate.h; sourceTree = "<group>"; };
+		3A54FFB013CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Molv_gtsberegnerAppDelegate.h; sourceTree = "<group>"; };
 		3A54FFB113CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Molv_gtsberegnerAppDelegate.m; sourceTree = "<group>"; };
 		3A54FFB413CCB32500F27C1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A54FFBB13CCB59A00F27C1B /* Molv_gtsberegnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Molv_gtsberegnerViewController.h; sourceTree = "<group>"; };
+		3A54FFBC13CCB59A00F27C1B /* Molv_gtsberegnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Molv_gtsberegnerViewController.m; sourceTree = "<group>"; };
+		3A54FFC013CCB9C800F27C1B /* MolarMassCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MolarMassCalculator.h; sourceTree = "<group>"; };
+		3A54FFC113CCB9C800F27C1B /* MolarMassCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MolarMassCalculator.m; sourceTree = "<group>"; };
+		3A54FFC313CCBEE800F27C1B /* molarMassTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = molarMassTable.plist; sourceTree = "<group>"; };
+		3AAFBB2613CD891D00EEBBA8 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3AB60D4C13CDB58E00B0DB08 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,10 @@
 			children = (
 				3A54FFB013CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.h */,
 				3A54FFB113CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m */,
+				3A54FFC013CCB9C800F27C1B /* MolarMassCalculator.h */,
+				3A54FFC113CCB9C800F27C1B /* MolarMassCalculator.m */,
+				3A54FFBB13CCB59A00F27C1B /* Molv_gtsberegnerViewController.h */,
+				3A54FFBC13CCB59A00F27C1B /* Molv_gtsberegnerViewController.m */,
 				3A54FFB313CCB32500F27C1B /* MainMenu.xib */,
 				3A54FFA513CCB32500F27C1B /* Supporting Files */,
 			);
@@ -94,10 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				3A54FFA613CCB32500F27C1B /* Molvægtsberegner-Info.plist */,
+				3AB60D4C13CDB58E00B0DB08 /* icon.icns */,
 				3A54FFA713CCB32500F27C1B /* InfoPlist.strings */,
 				3A54FFAA13CCB32500F27C1B /* main.m */,
 				3A54FFAC13CCB32500F27C1B /* Molvægtsberegner-Prefix.pch */,
 				3A54FFAD13CCB32500F27C1B /* Credits.rtf */,
+				3A54FFC313CCBEE800F27C1B /* molarMassTable.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -128,6 +146,7 @@
 		3A54FF9113CCB32400F27C1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Erik's Team";
 			};
 			buildConfigurationList = 3A54FF9413CCB32400F27C1B /* Build configuration list for PBXProject "Molvægtsberegner" */;
@@ -136,6 +155,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				da,
 			);
 			mainGroup = 3A54FF8F13CCB32400F27C1B;
 			productRefGroup = 3A54FF9B13CCB32500F27C1B /* Products */;
@@ -155,6 +175,8 @@
 				3A54FFA913CCB32500F27C1B /* InfoPlist.strings in Resources */,
 				3A54FFAF13CCB32500F27C1B /* Credits.rtf in Resources */,
 				3A54FFB513CCB32500F27C1B /* MainMenu.xib in Resources */,
+				3A54FFC413CCBEE800F27C1B /* molarMassTable.plist in Resources */,
+				3AB60D4D13CDB58E00B0DB08 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +189,8 @@
 			files = (
 				3A54FFAB13CCB32500F27C1B /* main.m in Sources */,
 				3A54FFB213CCB32500F27C1B /* Molv_gtsberegnerAppDelegate.m in Sources */,
+				3A54FFBE13CCB59A00F27C1B /* Molv_gtsberegnerViewController.m in Sources */,
+				3A54FFC213CCB9C800F27C1B /* MolarMassCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +201,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A54FFA813CCB32500F27C1B /* en */,
+				3A05728F13CDC34B00651CAD /* da */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -193,6 +218,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A54FFB413CCB32500F27C1B /* en */,
+				3AAFBB2613CD891D00EEBBA8 /* da */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -209,6 +235,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -235,6 +262,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -248,6 +276,7 @@
 		3A54FFB913CCB32500F27C1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Molvægtsberegner/Molvægtsberegner-Prefix.pch";
 				INFOPLIST_FILE = "Molvægtsberegner/Molvægtsberegner-Info.plist";
@@ -259,6 +288,7 @@
 		3A54FFBA13CCB32500F27C1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Molvægtsberegner/Molvægtsberegner-Prefix.pch";
 				INFOPLIST_FILE = "Molvægtsberegner/Molvægtsberegner-Info.plist";
@@ -286,6 +316,7 @@
 				3A54FFBA13CCB32500F27C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
