@@ -19,6 +19,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         molarMassCalculator = [[MolarMassCalculator alloc] init];
+        molarMass = [[NSNumber alloc] init];
     }
     return self;
 }
